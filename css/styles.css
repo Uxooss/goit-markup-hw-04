@@ -103,6 +103,9 @@ img {
   color: #2e2f42;
 }
 
+.nav-list-item {
+  position: relative;
+}
 .list-items {
   text-decoration: none;
   color: #2e2f42;
@@ -115,6 +118,17 @@ img {
 .list-items:hover,
 .list-items:focus {
   color: var(--btn-color_second);
+}
+
+.list-items.active::after {
+  content: '';
+  width: 100%;
+  height: 4px;
+  background-color: var(--btn-color_primar);
+  position: absolute;
+  left: 0;
+  bottom: -24px;
+  border-radius: 2px;
 }
 
 .contact-item {
@@ -297,7 +311,7 @@ img {
 }
 
 .member-card-text {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 .team-member-name {
@@ -313,12 +327,59 @@ img {
   color: var(--text-color);
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
+
+.team-social-list {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-social-item {
+  background-color: var(--btn-color_primar);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 12px;
+}
+
+/**=============================*/
+/* !========= CUSTOMERS ========*/
+
+.customers-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin-bottom: 72px;
+}
+
+.customers-list {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
+.customers-item {
+  width: calc((100% - 120px) / 6);
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  padding: 16px 32px;
+}
+
 /**=============================*/
 /* !========== FOOTER ==========*/
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--title-color);
   padding: 100px 0;
+}
+
+.foot-container {
+  display: flex;
+  gap: 120px;
 }
 
 .logo-foot {
@@ -340,6 +401,27 @@ img {
   width: 264px;
   line-height: 1.5;
   color: var(--text-color_light);
+}
+
+.foot-social-list {
+  display: flex;
+  gap: 16px;
+}
+
+.foot-social-text {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--title-color_light);
+  margin-bottom: 16px;
+}
+
+.foot-social-item {
+  background-color: var(--btn-color_primar);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
 }
 
 /*?===================================*/
