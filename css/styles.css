@@ -342,7 +342,13 @@ img {
   border-radius: 50%;
   width: 40px;
   height: 40px;
-  padding: 12px;
+}
+.social-item-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
 }
 
 /**=============================*/
@@ -365,9 +371,17 @@ img {
 }
 .customers-item {
   width: calc((100% - 120px) / 6);
+  height: 88px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
-  padding: 16px 32px;
+}
+
+.customer-item-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
 }
 
 /**=============================*/
@@ -421,7 +435,6 @@ img {
   border-radius: 50%;
   width: 40px;
   height: 40px;
-  padding: 8px;
 }
 
 /*?===================================*/
