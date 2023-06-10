@@ -600,7 +600,8 @@ img {
   transition: transform var(--transition);
 }
 
-.pfo-item-link:hover .pic-cover-text {
+.pfo-item-link:hover .pic-cover-text,
+.pfo-item-link:focus .pic-cover-text {
   transform: translateY(0);
 }
 
