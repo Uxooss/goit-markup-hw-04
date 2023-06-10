@@ -107,12 +107,10 @@ img {
   color: #2e2f42;
 }
 
-.nav-list-item {
-}
 .list-items {
   position: relative;
   text-decoration: none;
-  color: var(--title-color);
+  color: #404bbf;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
