@@ -1,6 +1,6 @@
 _ Модуль 4. Декоративні ефекти. Анімація_
 
-# goit-markup-hw-04  = [ ...in progress ]
+# goit-markup-hw-04  = [ _Completed_ ]
 
 https://uxooss.github.io/goit-markup-hw-04
 
