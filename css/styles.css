@@ -123,6 +123,10 @@ img {
   color: var(--btn-color_second);
 }
 
+.active {
+  color: var(--btn-color_second);
+}
+
 .list-items.active::after {
   content: '';
   width: 100%;
